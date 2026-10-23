@@ -16,6 +16,7 @@ Status: companion complete; SPECS starter saved; Lens implementation blocked on 
 - [ ] Run LEAF scenarios and manual Lens preview checks against the five done criteria.
 - [x] Build, deploy and browser-test the optional mouse/touch companion.
 - [x] Create the MindBridge Guide AR draft on Devpost with an accurate build description and companion link; verify it is attached to Learn AR with SPECS.
+- [x] Publish companion source, saved SPECS starter, and planning docs at https://github.com/delongtaylor-ux/mindbridge-guide-ar .
 - [ ] Record an actual Lens preview under three minutes and publish it on YouTube.
 - [ ] Scan and publish complete Lens source and planning documents to a public repository.
 - [ ] Collect required personal and subjective submission answers; do not fabricate experience, cost impact, or learning outcomes.

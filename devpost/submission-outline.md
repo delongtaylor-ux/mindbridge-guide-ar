@@ -1,6 +1,6 @@
 # MindBridge Guide AR — submission outline
 
-**Internal working outline. Solo registration is complete. A Devpost draft now exists at https://devpost.com/software/mindbridge-guide-ar and has not been finalized. No working MindBridge Lens exists yet. See `../devpost-submission.md` for the current submission packet.**
+**Internal working outline. Solo registration is complete. A Devpost draft now exists at https://devpost.com/software/mindbridge-guide-ar and has not been finalized. No working MindBridge Lens exists yet.**
 
 ## Project name
 MindBridge Guide AR
@@ -35,7 +35,7 @@ Intended workflow: Devpost Learn plan-lens for the design brief; Codex with the 
 The video must show the real Lens preview, not a rendered concept or a web substitute. Keep it under three minutes and publicly playable on YouTube.
 
 ## Required links
-- Public repository: TODO after the Lens exists and has been checked.
+- Public repository: https://github.com/delongtaylor-ux/mindbridge-guide-ar . It contains the working companion, complete saved SPECS starter, and planning docs. The working MindBridge Lens still needs implementation.
 - Public YouTube video: TODO after actual preview recording.
 - Optional web companion: https://mindbridge-fraction-workshop-4x1hvz.v2.appdeploy.ai/ (working; not a substitute for the required Lens).
 
