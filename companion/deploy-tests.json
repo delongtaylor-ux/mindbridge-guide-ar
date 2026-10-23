@@ -1,0 +1,93 @@
+[
+  {
+    "name": "Build, correct, and retain a whole observation",
+    "sanity": true,
+    "viewport": "desktop",
+    "covers": [
+      "whole arithmetic",
+      "piece addition and removal",
+      "rehearsal guardrail",
+      "local observation save and correction",
+      "persistence",
+      "reversible archiving"
+    ],
+    "description": "A correct whole can be recorded as practice and corrected without generating independent evidence.",
+    "steps": [
+      "Select Build a whole",
+      "Add one half twice, then Check arrangement",
+      "Verify Independent is disabled",
+      "Record With help",
+      "Correct the new Learning notes observation to Try again",
+      "Refresh the page",
+      "Archive the saved observation",
+      "Use Show archived notes, restore the observation, then select Show current notes"
+    ],
+    "expected": "Learning notes retains Try again for Build one whole. No independent challenge completion is reported. Archiving hides the observation, and Restore returns it with the corrected outcome."
+  },
+  {
+    "name": "Equivalent demonstration preserves the learner arrangement",
+    "viewport": "desktop",
+    "covers": [
+      "equivalence",
+      "demonstration",
+      "guidance toggle",
+      "undo",
+      "reset",
+      "incorrect feedback"
+    ],
+    "description": "Two quarters match a half and the demonstration never fills the answer on the learner's behalf.",
+    "steps": [
+      "Select Find equivalents",
+      "Add one quarter",
+      "Show demonstration",
+      "Verify the total remains 1 / 4 and the demo describes 1/4 + 1/4 = 1 / 2",
+      "Hide guidance",
+      "Check arrangement and verify more space remains",
+      "Add another quarter and Check arrangement",
+      "Undo then Start again"
+    ],
+    "expected": "Two quarters were accepted as a half. Start again leaves an empty arrangement with total 0 / 1."
+  },
+  {
+    "name": "Independent challenge and note export on mobile",
+    "viewport": "mobile",
+    "covers": [
+      "mobile touch layout",
+      "independent challenge",
+      "observation persistence",
+      "different challenge progression",
+      "export"
+    ],
+    "description": "An unassisted correct challenge records evidence and can be exported locally.",
+    "steps": [
+      "Select New challenge",
+      "Add one quarter three times and Check arrangement",
+      "Record Independent",
+      "Select Next challenge",
+      "Verify Build two thirds is shown and guidance is hidden",
+      "Select Export notes",
+      "Refresh the page"
+    ],
+    "expected": "A JSON notes download is offered and the independent Build three quarters observation persists. The interface has no horizontal overflow."
+  },
+  {
+    "name": "Hints cannot be hidden to manufacture independent evidence",
+    "viewport": "desktop",
+    "covers": [
+      "hint guardrail",
+      "assisted attempt state",
+      "incorrect answer guardrail",
+      "overflow and removal"
+    ],
+    "description": "Assistance remains attached to an attempt even after guidance is hidden.",
+    "steps": [
+      "Select New challenge",
+      "Show hint then Hide guidance",
+      "Add one quarter three times and Check arrangement",
+      "Verify Independent remains disabled and record With help",
+      "Add another quarter and Check arrangement",
+      "Remove the fourth piece using its remove button and check again"
+    ],
+    "expected": "The corrected arrangement matches but independent recording remains disabled. Learning notes labels the saved attempt Assisted challenge."
+  }
+]
