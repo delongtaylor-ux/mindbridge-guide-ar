@@ -1,0 +1,13 @@
+**/.mcp.json
+**/.codex/
+**/.cursor/
+**/.vscode/
+**/ls-live-instance.json
+**/Cache/
+**/Support/
+**/PluginsUserPreferences/
+**/Workspaces/
+**/.DS_Store
+**/node_modules/
+**/.env*
+.devpost-hackathon-state.json
